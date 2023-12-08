@@ -1,0 +1,35 @@
+/* Top of Page Navbar */
+div#navbar {
+    height:50px;
+    text-align:center;
+    background:linear-gradient(to bottom right,#111 10%,#222 50%,#111 90%);
+}
+
+ul {
+    list-style-type:None;
+    display:inline-block;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display:inline-block;
+    padding:14px 16px;
+    color:white;
+    font-size:19px;
+    text-align:center;
+    text-decoration:none;
+}
+
+li a:hover {
+    background-color:#111;
+}
+
+div#seperation {
+    height:20px;
+}

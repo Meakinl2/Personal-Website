@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Homepage </title>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/homepage.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/fade_in.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/navbar.css')}}">    
+        <link rel="stylesheet" href="{{url_for('static',filename='css/skills.css')}}">
+    </head>
+
+    <body>
+        <div class="page">
+            <div id="title-box">
+                <div id="title">
+                    Lewis Meakin
+                </div> 
+            </div>
+
+            <div id="navbar">
+                <ul>
+                    <li><a href="#about"> About Me </a></li>
+                    <li><a href="#skills"> Skillset </a></li>
+                    <li><a href="/projects"> Projects </a></li>
+                    <li><a href="#education"> Education </a></li>
+                    <li><a href="#career"> Career </a></li>
+                    <li><a href="#cv"> CV </a></li>
+                    <li><a href="/playground"> Playground </a></li>
+                    <li><a href="#contact"> Contact Me </a></li>
+                </ul>
+            </div>
+
+            <div id="about">
+                <div id="about-center">
+                    <img id="about-image" src="{{url_for('static',filename='images/me.jpg')}}">
+                    <div id="about-info">
+                        <p> I am a second year Computer Science student from the West Midlands.
+                            I have been developing software since I was in year 10 and take great joy in 
+                            solving coding problems
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="skills">
+                <div class="skill-slide" id="python">
+                    <div class="skill-wheel" id="python">
+                        Python Skill Wheel
+                    </div>
+
+                    <div class="skill-info" id="python">
+                        Python Skill Info
+                    </div>
+                </div>
+
+                <div class="skill-slide" id="cpp">
+                    <div class="skill-wheel" id="cpp">
+                        C++ Skill Wheel
+                    </div>
+
+                    <div class="skill-info" id="cpp">
+                        C++ Skill Info
+                    </div>
+                </div>
+
+                <div class="skill-slide" id="html">
+                    <div class="skill-wheel" id="html">
+                        HTML Skill Wheel
+                    </div>
+
+                    <div class="skill-info" id="html">
+                        HTML Skill Info
+                    </div>
+                </div>
+
+                <div class="skill-slide" id="css">
+                    <div class="skill-wheel" id="css">
+                        CSS Skill Wheel
+                    </div>
+
+                    <div class="skill-info" id="css">
+                        CSS Skill Info
+                    </div>
+                </div>
+
+                <div class="skill-slide" id="javascript">
+                    <div class="skill-wheel" id="javascript">
+                        JavaScript Skill Wheel
+                    </div>
+
+                    <div class="skill-info" id="javascript">
+                        JavaScript Skill Info
+                    </div>
+                </div>
+
+                <div class="skill-slide" id="unity">
+                    <div class="skill-wheel" id="unity">
+                        Unity Skill Wheel
+                    </div>
+
+                    <div class="skill-info" id="unity">
+                        Unity Skill Info
+                    </div>
+                </div>
+
+                <div class="skill-shortcuts">
+                    <div class="skill-shortcut" id="python" onclick="ManualSlideshow(0)">
+                        Python Skill Shortcut
+                    </div>
+
+                    <div class="skill-shortcut" id="cpp" onclick="ManualSlideshow(1)">
+                        C++ Skill Shortcut
+                    </div>
+
+                    <div class="skill-shortcut" id="html" onclick="ManualSlideshow(2)">
+                        HTML Skill Shortcut
+                    </div>
+
+                    <div class="skill-shortcut" id="css" onclick="ManualSlideshow(3)">
+                        CSS Skill Shortcut 
+                    </div>
+
+                    <div class="skill-shortcut" id="javascript" onclick="ManualSlideshow(4)">
+                        JavaScript Skill Shortcut
+                    </div>
+
+                    <div class="skill-shortcut" id="unity" onclick="ManualSlideshow(5)">
+                        Unity Skill Shortcut
+                    </div>
+                </div>
+            </div>
+
+            <div id="projects">
+                Projects
+            </div>
+
+            <div id="education">
+                Education
+            </div>
+
+            <div id="career">
+                Career
+            </div>
+
+            <div id="cv">
+                CV
+            </div>
+
+            <div id="contact">
+                Contact Me
+            </div>
+
+        </div>
+        <script src="{{url_for('static',filename='scripts/fade_in.js')}}"></script>
+        <script src="{{url_for('static',filename='scripts/skills_slideshow.js')}}"></script>
+    </body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> HTML Playground </title>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/playground.css')}}">       
+    </head>
+
+    <body>
+        <div class="page">
+
+            <div class="return-home" href="/"> 
+                <a href="/" style="text-decoration:none;">HOME </a>
+            </div>
+
+            <h1>HTML Playground</h1>
+
+            <div class="container">
+                <div class="container-display">
+                    <div id="colour-change" onmouseover="ChangeColour()"></div>
+                </div>
+                <div class="container-text">
+                    <h2> Changing Colour Square </h2>
+                    <p class="container-explaination"> For my first very small creation, in an attempt to learn the 
+                        most basic JavaScript syntax and expand slightly on HTML and CSS knowledge I created this object 
+                        which changes colour when it is hovered over and then loop back to the start when it reaches 
+                        the end of the specified colours. </p>
+                </div>
+            </div>
+
+            <div class="seperation"></div>
+
+            <div class="container">
+                <div class="container-display">
+                    <div class="center">
+                        <div class="slide-test">
+                            <figure>
+                                <img src="{{url_for('static',filename='images/Slide-Test-0.jpg')}}" class="slideshow-image">
+                                <figcaption>Source: Pixabay on www.pexels.com</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="slide-test">
+                            <figure>
+                                <img src="{{url_for('static',filename='images/Slide-Test-1.jpg')}}" class="slideshow-image">
+                                <figcaption>Source: Pixabay on www.pexels.com</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="slide-test">
+                            <figure>
+                                <img src="{{url_for('static',filename='images/Slide-Test-2.jpg')}}" class="slideshow-image">
+                                <figcaption>Source: Pixabay on www.pexels.com</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="slide-test">
+                            <figure>
+                                <img src="{{url_for('static',filename='images/Slide-Test-3.jpg')}}" class="slideshow-image">
+                                <figcaption>Source: Pixabay on www.pexels.com</figcaption>
+                            </figure>
+                        </div>
+
+                        <a class="prev-slide" onclick="RelativeSlideChange(-1)">&#10094;</a>
+                        <a class="next-slide" onclick="RelativeSlideChange(1)">&#10095;</a>
+
+                        <br> <br>
+
+                        <div class="slideshow-dots">
+                            <span class="dot" onclick="ManualSlideshow(0)"></span>
+                            <span class="dot" onclick="ManualSlideshow(1)"></span>
+                            <span class="dot" onclick="ManualSlideshow(2)"></span>
+                            <span class="dot" onclick="ManualSlideshow(3)"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-text">
+                    <h2> Manual + Automatic Slideshow </h2>
+                    <p class="container-explaination"> For this small project I endeavoured to create a slideshow.
+                        This slideshow iterates by itself every 5 seconds and can also be iteated through using the
+                        dots below it or the arrows to either side. Manually navigating to an image will cause the 
+                        automatic functions of the slideshow to pause for 60 seconds. </p>
+                </div>
+            </div>
+
+            <div class="seperation"></div>
+
+            <div class="container">
+                <div class="container-display">
+
+                </div>
+                <div class="container-text">
+
+                </div>
+            </div>
+        </div>
+        <script src="{{url_for('static',filename='scripts/playground.js')}}"></script>
+    </body>
+</html>

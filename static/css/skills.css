@@ -1,0 +1,109 @@
+/* Skills */
+
+div#skills {
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    justify-content:center;
+    margin:10px;
+    height:900px;
+    background:linear-gradient(to bottom right,#111 10%,#222 50%,#111 90%);
+    border-radius:40px;
+}
+
+/* Skills Generics*/
+div.skill-slide {
+    display:none;
+    height:500px;
+    width:100% - 10px;
+    border:black solid 5px;
+}
+
+div.skill-wheel {
+    display:inherit;
+    align-self:flex-start;
+    height:500px;
+    width:500px;
+    min-width:500px;
+    border:black solid 5px;
+    transition:border-color 1s ease;
+}
+
+div.skill-info {
+    display:inherit;
+    align-self:flex-start;
+    height:500px;
+    width:100%;
+    border:white solid 5px;
+}   
+
+div.skill-shortcuts {
+    display:flex;
+    justify-content:center;
+    height:210px;
+    width:100% - 10px;
+    margin-top:10px;
+    border:grey solid 5px;
+}
+
+div.skill-shortcut {
+    margin-left:5px;
+    height:200px;
+    width:200px;
+    border:grey solid 5px;
+}
+
+div.shortcut-active {
+    color:crimson;
+    border-color:crimson;
+}
+
+/* Skill Wheel Specifics*/
+div.skill-wheel#python {
+    border-color:red;
+}
+
+div.skill-wheel#cpp {
+    border-color:blue;
+}
+
+div.skill-wheel#html {
+    border-color:green;
+}
+
+div.skill-wheel#css {
+    border-color:purple;
+}
+
+div.skill-wheel#javascript {
+    border-color:yellow;
+}
+
+div.skill-wheel#unity {
+    border-color:grey;
+}
+
+/* Skill Shortcut Specifics*/
+div.skill-shortcut#python {
+    border-color:red;
+}
+
+div.skill-shortcut#cpp {
+    border-color:blue;
+}
+
+div.skill-shortcut#html {
+    border-color:green;
+}
+
+div.skill-shortcut#css {
+    border-color:purple;
+}
+
+div.skill-shortcut#javascript {
+    border-color:yellow;
+}
+
+div.skill-shortcut#unity {
+    border-color:grey;
+}

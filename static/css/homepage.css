@@ -1,0 +1,104 @@
+/* General */
+html,body {
+    height:100%;
+    width:100%;
+}
+
+body {
+    overflow:auto;
+    margin:0;
+    padding:0;
+    background:linear-gradient(to bottom right,#3333ff 0%,#9933ff 100%);
+    background-repeat:no-repeat;
+}
+
+div {
+    margin:0;
+    padding:0;
+    width:100% - 20px;
+    color:white;
+    font-size:20px;
+}
+
+div.page {
+    background:linear-gradient(to bottom right,#000099 0%,#660066 75%);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+
+/* Page Title */
+div#title-box {
+    position:relative;
+    height:100%;
+    min-height:100%;
+    background-image:url('/static/images/title_image.jpg');
+    background-size:cover;  
+}
+
+div#title {
+    color:white;
+    font-size:200px;
+    text-align:center;
+}
+
+/* About Me */
+div#about {
+    display:flex;
+    height:500px;
+    width:100% - 10px;
+    align-content:center;
+    justify-content:center;
+    border:hotpink solid 5px;
+}
+
+div#about-center {
+    display:flex;
+    justify-self:center;
+    align-self:center;
+    align-content:center;
+    border:black solid 2px;
+}
+
+img#about-image {
+    position:relative;
+    height:250px;
+    width:250px;
+}
+
+div#about-info {
+    display:flex;
+    width:750px;
+    border:black solid 2px;
+}
+
+div#projects {
+    height:500px
+}
+
+div#education {
+    height:500px
+}
+
+div#career {
+    height:500px
+}
+
+div#cv {
+    height:500px
+}
+
+div#contact {
+    height:250px;
+    background:linear-gradient(to bottom right,#111 10%,#222 25%,#222 75%,#111 90%)
+}
+
+div.hollow-circle {
+    display:flex;
+    z-index:1;
+    height:200px;
+    width:200px;
+    border:#660066 solid 25px;
+    background-color:linear-gradient(to bottom right,purple 0%, pink 100%);
+    border-radius:50%;
+}
