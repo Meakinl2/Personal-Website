@@ -35,28 +35,28 @@
                     <div class="center">
                         <div class="slide-test">
                             <figure>
-                                <img src="{{url_for('static',filename='images/Slide-Test-0.jpg')}}" class="slideshow-image">
+                                <img src="{{url_for('static',filename='images/Test-Slideshow/Slide-Test-0.jpg')}}" class="slideshow-image">
                                 <figcaption>Source: Pixabay on www.pexels.com</figcaption>
                             </figure>
                         </div>
 
                         <div class="slide-test">
                             <figure>
-                                <img src="{{url_for('static',filename='images/Slide-Test-1.jpg')}}" class="slideshow-image">
+                                <img src="{{url_for('static',filename='images/Test-Slideshow/Slide-Test-1.jpg')}}" class="slideshow-image">
                                 <figcaption>Source: Pixabay on www.pexels.com</figcaption>
                             </figure>
                         </div>
 
                         <div class="slide-test">
                             <figure>
-                                <img src="{{url_for('static',filename='images/Slide-Test-2.jpg')}}" class="slideshow-image">
+                                <img src="{{url_for('static',filename='images/Test-Slideshow/Slide-Test-2.jpg')}}" class="slideshow-image">
                                 <figcaption>Source: Pixabay on www.pexels.com</figcaption>
                             </figure>
                         </div>
 
                         <div class="slide-test">
                             <figure>
-                                <img src="{{url_for('static',filename='images/Slide-Test-3.jpg')}}" class="slideshow-image">
+                                <img src="{{url_for('static',filename='images/Test-Slideshow/Slide-Test-3.jpg')}}" class="slideshow-image">
                                 <figcaption>Source: Pixabay on www.pexels.com</figcaption>
                             </figure>
                         </div>
@@ -87,10 +87,38 @@
 
             <div class="container">
                 <div class="container-display">
-
-                </div>
+                    <div class="enlarged-item">
+                        <img class="item-img" id="item1" src="{{url_for('static',filename='images/Test-Enlarge-Display/McDonalds.png')}}" onclick="MakeFocus(this)">
+                    </div>
+                    <div class="item-panel">
+                        <div class="item-row">
+                            <div class="listed-item">
+                                <img class="item-img" id="item2" src="{{url_for('static',filename='images/Test-Enlarge-Display/KFC.jpg')}}" onclick="MakeFocus(this)">
+                            </div>
+                            <div class="listed-item">
+                                <img class="item-img" id="item3" src="{{url_for('static',filename='images/Test-Enlarge-Display/Subway.png')}}" onclick="MakeFocus(this)">
+                            </div>
+                            <div class="listed-item">
+                                <img class="item-img" id="item4" src="{{url_for('static',filename='images/Test-Enlarge-Display/Taco-Bell.jpg')}}" onclick="MakeFocus(this)">
+                            </div>
+                        </div>
+                        <div class="item-row">
+                            <div class="listed-item">
+                                <img class="item-img" id="item5" src="{{url_for('static',filename='images/Test-Enlarge-Display/Dominoes.jpg')}}" onclick="MakeFocus(this)">
+                            </div>
+                            <div class="listed-item">
+                                <img class="item-img" id="item6" src="{{url_for('static',filename='images/Test-Enlarge-Display/Pizza-Hut.jpg')}}" onclick="MakeFocus(this)">
+                            </div>
+                            <div class="listed-item">
+                                <img class="item-img" id="item7" src="{{url_for('static',filename='images/Test-Enlarge-Display/Cracker-Barrel.jpg')}}" onclick="MakeFocus(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div> 
                 <div class="container-text">
-
+                    <h2> Resizeable Display </h2>
+                    <p class="container-explaination"> A display for multiple items that will enlarge a selected item to
+                        display it primarily and will make the others smaller. </p>
                 </div>
             </div>
         </div>

@@ -45,7 +45,6 @@ div#title {
 /* About Me */
 div#about {
     display:flex;
-    height:500px;
     width:100% - 10px;
     align-content:center;
     justify-content:center;
@@ -72,19 +71,11 @@ div#about-info {
     border:black solid 2px;
 }
 
-div#projects {
-    height:500px
-}
-
 div#education {
     height:500px
 }
 
 div#career {
-    height:500px
-}
-
-div#cv {
     height:500px
 }
 

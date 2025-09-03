@@ -5,40 +5,46 @@
         <title> Homepage </title>
         <link rel="stylesheet" href="{{url_for('static',filename='css/homepage.css')}}">
         <link rel="stylesheet" href="{{url_for('static',filename='css/fade_in.css')}}">
-        <link rel="stylesheet" href="{{url_for('static',filename='css/navbar.css')}}">    
+
         <link rel="stylesheet" href="{{url_for('static',filename='css/skills.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/projects.css')}}">
+
     </head>
 
     <body>
         <div class="page">
-            <div id="title-box">
-                <div id="title">
-                    Lewis Meakin
-                </div> 
-            </div>
 
-            <div id="navbar">
-                <ul>
-                    <li><a href="#about"> About Me </a></li>
-                    <li><a href="#skills"> Skillset </a></li>
-                    <li><a href="/projects"> Projects </a></li>
-                    <li><a href="#education"> Education </a></li>
-                    <li><a href="#career"> Career </a></li>
-                    <li><a href="#cv"> CV </a></li>
-                    <li><a href="/playground"> Playground </a></li>
-                    <li><a href="#contact"> Contact Me </a></li>
-                </ul>
+            <div>
+                {% include "navbar.html" %}
             </div>
 
             <div id="about">
                 <div id="about-center">
                     <img id="about-image" src="{{url_for('static',filename='images/me.jpg')}}">
                     <div id="about-info">
-                        <p> I am a second year Computer Science student from the West Midlands.
-                            I have been developing software since I was in year 10 and take great joy in 
-                            solving coding problems
+                        <p> I am a third year Computer Science at Coventry University. I have experience in several different coding languages
+                            such as Python, C++, and JavaScript; however I do not struggle with learning new syntax and ultimately enjoy discovering
+                            the quirks and niche applications that come with with different languages. I enjoy problem solving and the porcess that 
+                            comes with designing, implementing, and optomising projects. I have applied my skills through several mediums: game design,
+                            web development, application development, ect. While I thrive the best as an idividual I am not adverse to teamwork and can
+                            prove myself a consistently useful member provided I am given adequate direction.
                         </p>
                     </div>
+                </div>
+            </div>
+
+            <div id="projects">
+                Projects
+                <div class="project-display" id="project1">
+                    
+                </div>
+
+                <div class="project-display" id="project2">
+                    
+                </div>
+
+                <div class="project-display" id="project3">
+                    
                 </div>
             </div>
 
@@ -130,20 +136,12 @@
                 </div>
             </div>
 
-            <div id="projects">
-                Projects
-            </div>
-
             <div id="education">
                 Education
             </div>
 
             <div id="career">
                 Career
-            </div>
-
-            <div id="cv">
-                CV
             </div>
 
             <div id="contact">
