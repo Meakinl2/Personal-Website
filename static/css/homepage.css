@@ -1,95 +1,106 @@
 /* General */
-html,body {
-    height:100%;
-    width:100%;
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+}
+
+html, body {
+    min-height: 100dvh;
+    height: 100dvh;
+    width: 100dvw;
 }
 
 body {
-    overflow:auto;
-    margin:0;
-    padding:0;
-    background:linear-gradient(to bottom right,#3333ff 0%,#9933ff 100%);
-    background-repeat:no-repeat;
-}
-
-div {
-    margin:0;
-    padding:0;
-    width:100% - 20px;
-    color:white;
-    font-size:20px;
+    overflow: auto;
+    background: lightgray;
+    background-repeat: no-repeat;
 }
 
 div.page {
-    background:linear-gradient(to bottom right,#000099 0%,#660066 75%);
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    background: lightgrey;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-
-/* Page Title */
-div#title-box {
-    position:relative;
-    height:100%;
-    min-height:100%;
-    background-image:url('/static/images/title_image.jpg');
-    background-size:cover;  
-}
-
-div#title {
-    color:white;
-    font-size:200px;
-    text-align:center;
-}
 
 /* About Me */
-div#about {
-    display:flex;
-    width:100% - 10px;
-    align-content:center;
-    justify-content:center;
-    border:hotpink solid 5px;
+div#about-outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
 
-div#about-center {
-    display:flex;
-    justify-self:center;
-    align-self:center;
-    align-content:center;
-    border:black solid 2px;
+div#about-inside {
+    display: flex;
+    width: 75dvw;
+    min-height: 75dvh;
+    height: 75dvh;
+    border: hotpink solid 5px;
+
 }
 
-img#about-image {
-    position:relative;
-    height:250px;
-    width:250px;
+div#about-left {
+    display: flex;
+    width: 40%;
+    align-content: center;
+    justify-content: center;
+    border: red solid 2px;
 }
+
+div#about-image {
+    width: 70%;
+    align-content: center;
+    justify-content: center;
+    border: purple solid 2px;
+}
+
+div#about-image img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: #222 solid 3px;
+    border-radius: 50%;
+}
+
+
+div#about-right {
+    width: 60%;
+    align-content: center;
+    justify-content: center;
+}
+
+div#about-right-inside {
+    height: 75%
+}
+
+div#about-right-top {
+    height: 30%;
+    border: lime solid 2px;
+    align-content: center;
+}
+
+div#about-right-middle {
+    height: 40%;
+    border: olive solid 2px;
+}
+
+div#about-right-bottom {
+    height: 30%;
+    border: lime solid 2px;
+
+}
+
 
 div#about-info {
-    display:flex;
-    width:750px;
-    border:black solid 2px;
+
 }
 
-div#education {
-    height:500px
-}
 
-div#career {
-    height:500px
-}
-
-div#contact {
-    height:250px;
-    background:linear-gradient(to bottom right,#111 10%,#222 25%,#222 75%,#111 90%)
-}
-
-div.hollow-circle {
-    display:flex;
-    z-index:1;
-    height:200px;
-    width:200px;
-    border:#660066 solid 25px;
-    background-color:linear-gradient(to bottom right,purple 0%, pink 100%);
-    border-radius:50%;
+h1 {
+    font-size: 50px;
 }

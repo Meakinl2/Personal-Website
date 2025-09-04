@@ -144,7 +144,7 @@ a.next-slide {
     left:148px;
     border-radius:0 6px 6px 0;
 }
-
+    
 a.prev-slide:hover, a.next-slide:hover {
     background-color:rgba(48,48,48,0.8);
 }
