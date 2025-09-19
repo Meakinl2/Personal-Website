@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+}
+
+html, body {
+    min-height: 100dvh;
+    height: 100dvh;
+    width: 100dvw;
+}
+
+body {
+    overflow: auto;
+    background: lightgray;
+    background-repeat: no-repeat;
+}
+
+
+div.page {
+    background: lightgrey;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div#centre-outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 95vh;
+}
+
+div#centre-inside {
+    display: flex;
+    width: 75dvw;
+    min-height: 75dvh;
+    height: 75dvh;
+    background: #777;
+    border: #333 solid 5px;
+    border-radius: 15dvh;
+}
+
+div.contact-input {
+    width: 75%;
+    background: white;
+    border: black solid 1px;
+    border-radius: 15%;
+
+}
+
+div.contact-input:focus {
+    border-color: blue;
+}
+
+div#info-box {
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+div#input-box {
+    width: 50%;
+    align-content: center;
+    justify-content: center;    
+}
+
+input#message-box {
+    height: 200px;
+}

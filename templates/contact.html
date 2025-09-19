@@ -3,7 +3,7 @@
 
     <head>
         <title> Contact </title>
-        <link rel="stylesheet" href="{{url_for('static',filename='css/homepage.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/contact.css')}}">
     </head>
 
     <body>
@@ -12,6 +12,40 @@
             <div>
                 {% include "navbar.html" %}
             </div>
+
+            <div id="centre-outside">
+                <div id="centre-inside">
+                    <div id="info-box">
+                        Info Box
+                    </div>
+
+
+                    <div id="input-box"> 
+                        <form>
+                            <div id="name-box">
+                                <div id="first-name-input">
+                                    <input type="text" name="first-name" class="form-input" placeholder="First Name" required/>
+                                </div>
+
+                                <div id="last-name-input">
+                                    <input type="text" name="last-name" class="form-input" placeholder="Last Name" required/>
+                                </div>
+                            </div>
+
+                            <div id="email-input">
+                                <input type="text" name="email" class="form-input" placeholder="Email Address" required/>
+                            </div>
+
+                            <div id="message-input">
+                                <input type="text" id="message-box" name="message" class="form-input" placeholder="Message" required/>
+                            </div>
+
+                            <input type="submit" name="submit-button" class="submit-button" value="Submit"/>
+                        </form>
+                    </div>
+
+                </div>
+            </div> 
 
             
     </body>

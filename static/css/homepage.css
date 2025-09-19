@@ -32,7 +32,7 @@ div#about-outside {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 div#about-inside {
@@ -41,7 +41,6 @@ div#about-inside {
     min-height: 75dvh;
     height: 75dvh;
     border: hotpink solid 5px;
-
 }
 
 div#about-left {
