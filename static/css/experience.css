@@ -1,0 +1,15 @@
+div#center-outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 95vh;
+}
+
+div#center-inside {
+    display: flex;
+    width: 75dvw;
+    min-height: 75dvh;
+    height: 75dvh;
+    border: hotpink solid 5px;
+}

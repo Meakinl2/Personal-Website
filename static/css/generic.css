@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+}
+
+html, body {
+    min-height: 100dvh;
+    height: 100dvh;
+    width: 100dvw;
+}
+
+body {
+    overflow: auto;
+    background: #111154;
+    background-repeat: no-repeat;
+}
+
+div.page {
+    background: radial-gradient(at 18% 99%, rgb(27, 2, 95) 0px, transparent 50%) repeat scroll 0% 0%, 
+            radial-gradient(at 97% 8%, rgb(2, 52, 106) 0px, transparent 50%) repeat scroll 0% 0%, 
+            radial-gradient(at 79% 82%, rgb(29, 4, 83) 0px, transparent 50%) repeat scroll 0% 0%,
+            radial-gradient(at 96% 10%, rgb(1, 14, 89) 0px, transparent 50%) repeat scroll 0% 0%,    
+            radial-gradient(at 42% 20%, rgb(2, 12, 124) 0px, transparent 50%) repeat scroll 0% 0%,
+            radial-gradient(at 4% 49%, rgb(72, 2, 177) 0px, transparent 50%) repeat scroll 0% 0%;
+            
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}

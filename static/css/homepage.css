@@ -1,32 +1,3 @@
-/* General */
-
-* {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 20px;
-}
-
-html, body {
-    min-height: 100dvh;
-    height: 100dvh;
-    width: 100dvw;
-}
-
-body {
-    overflow: auto;
-    background: lightgray;
-    background-repeat: no-repeat;
-}
-
-div.page {
-    background: lightgrey;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-
-/* About Me */
 div#about-outside {
     display: flex;
     justify-content: center;

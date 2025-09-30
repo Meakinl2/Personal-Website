@@ -3,6 +3,7 @@
 
     <head>
         <title> Contact </title>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/generic.css')}}">
         <link rel="stylesheet" href="{{url_for('static',filename='css/contact.css')}}">
     </head>
 
@@ -16,9 +17,11 @@
             <div id="centre-outside">
                 <div id="centre-inside">
                     <div id="info-box">
-                        Info Box
+                        <div id="info-box-align">
+                            Contact Information. <br> Email: <br> lewismeakin2004@gmail.com <br> Phone: +44 7448 681 482 <br> LinkedIn: <br> https://www.linkedin.com/in/lewis-meakin-2392a3258
+                    
+                        </div>
                     </div>
-
 
                     <div id="input-box"> 
                         <form>
@@ -31,13 +34,13 @@
                                     <input type="text" name="last-name" class="form-input" placeholder="Last Name" required/>
                                 </div>
                             </div>
-
+                            
                             <div id="email-input">
                                 <input type="text" name="email" class="form-input" placeholder="Email Address" required/>
                             </div>
 
                             <div id="message-input">
-                                <input type="text" id="message-box" name="message" class="form-input" placeholder="Message" required/>
+                                <textarea id="message-box" name="message" placeholder="Message"> </textarea> 
                             </div>
 
                             <input type="submit" name="submit-button" class="submit-button" value="Submit"/>
