@@ -15,28 +15,68 @@ div#center-inside {
 
 div#projects-introduction {
     width: 90dvw;
-    height: 40dvh;
+    aspect-ratio: 8/3;
     border-radius: 5px;
     background: rgba(120,120,120,0.2);
+    margin-top: 2dvh;
     margin-bottom: 4dvh;
 
 }
 
 div#projects-board {
+    width:90dvw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     border:black;
+    margin-bottom: 4dvh;
 
 }
 
 
 div.project-container {
-    height: 400px;
-    border-radius: 5px;
-    background: rgba(120,120,120,0.3)
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 10/11;
+    border-radius: 10px;
+    background: rgba(80,80,80,0.3)
 }
 
-div.project_image {
+div.project-title {
+    width: 100%;
+}
 
+div.project-image {
+    width: 100%;
+    aspect-ratio: 2/1;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.project-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.project-image-cover {
+    width: 100%;
+    aspect-ratio: 2/1;
+    background-color: rgba(80,80,80,0.3);
+}
+
+div.project-description {
+    display: flex;
+    justify-content: center;
+}
+
+div.project-description-skills {
+    width: 50%;
+    padding: 10px;
+    border: black solid 2px;
+}
+
+div.project-description-blurb {
+    width: 50%;
+    padding: 10px;
+    border: black solid 2px;
 }
