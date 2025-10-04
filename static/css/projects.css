@@ -10,18 +10,40 @@ div#center-inside {
     flex-direction: column;
     align-content: center;
     text-align: center;
+
     border: black solid 5px;
 }
 
 div#projects-introduction {
+    display: flex;
+    flex-direction: column;
     width: 90dvw;
     aspect-ratio: 8/3;
+
     border-radius: 5px;
     background: rgba(120,120,120,0.2);
     margin-top: 2dvh;
     margin-bottom: 4dvh;
+}
+
+
+div#projects-introduction-title {
+    background: rgba(40,40,40,0.3);
+    border-top: black solid 10px;
+    border-bottom: black solid 10px;
+
+    margin-top: 6dvh;
+    font-size: 12dvw;
+    color: #bcbcbc;
+}
+
+div#projects-introduction-description {
+
+    margin-top: 6dvh;
+    font-size: 2dvw;
 
 }
+
 
 div#projects-board {
     width:90dvw;
@@ -39,21 +61,29 @@ div.project-container {
     flex-direction: column;
     aspect-ratio: 10/11;
     border-radius: 10px;
-    background: rgba(80,80,80,0.3)
+    
+    background: rgba(80,80,80,0.3);
+    box-shadow: 0 30px 40px rgba(0,0,0,.3);
 }
 
 div.project-title {
     width: 100%;
+
+    border-top: black solid 0.5dvh;
+    border-bottom: black solid 0.5dvh;
+
+    font-size: 1.75dvw;
 }
 
 div.project-image {
     width: 100%;
-    aspect-ratio: 2/1;
+    aspect-ratio: 16/9;
     border-radius: 10px 10px 0px 0px;
 }
 
 div.project-image img {
     width: 100%;
+    aspect-ratio: 16/9;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
