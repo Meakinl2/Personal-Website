@@ -20,39 +20,40 @@ div#projects-introduction {
     width: 90dvw;
     aspect-ratio: 8/3;
 
-    border-radius: 5px;
-    background: rgba(120,120,120,0.2);
     margin-top: 2dvh;
     margin-bottom: 4dvh;
+
+    border-radius: 5px;
+    background: rgba(120,120,120,0.2);
+    
 }
 
 
 div#projects-introduction-title {
-    background: rgba(40,40,40,0.3);
+    margin-top: 6dvh;
+    
+    background: rgba(20,20,20,0.3);
     border-top: black solid 10px;
     border-bottom: black solid 10px;
 
-    margin-top: 6dvh;
+    
     font-size: 12dvw;
     color: #bcbcbc;
 }
 
 div#projects-introduction-description {
-
     margin-top: 6dvh;
     font-size: 2dvw;
-
 }
-
 
 div#projects-board {
     width:90dvw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+
     border:black;
     margin-bottom: 4dvh;
-
 }
 
 
@@ -61,13 +62,15 @@ div.project-container {
     flex-direction: column;
     aspect-ratio: 10/11;
     border-radius: 10px;
-    
+
     background: rgba(80,80,80,0.3);
-    box-shadow: 0 30px 40px rgba(0,0,0,.3);
+    box-shadow: 0 30px 40px rgba(0,0,0,0.6);
 }
 
 div.project-title {
     width: 100%;
+
+    background: rgba(20,20,20,0.3);
 
     border-top: black solid 0.5dvh;
     border-bottom: black solid 0.5dvh;
@@ -96,17 +99,38 @@ div.project-image-cover {
 
 div.project-description {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-div.project-description-skills {
-    width: 50%;
-    padding: 10px;
-    border: black solid 2px;
+div.project-description-blurb {
+    margin: 1dvw;
+
+    text-align: left;
+    overflow-wrap: break-word;
+    overflow: hidden;
 }
 
-div.project-description-blurb {
-    width: 50%;
-    padding: 10px;
-    border: black solid 2px;
+div.project-description-skills {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    width: 100%;
+
+    overflow-wrap: break-word;
+    overflow: hidden;
 }
+
+div.project-description-skill-tag {
+    font-size: 1dvw;
+}
+
+a.project-github-link {
+    width:100%;
+
+    margin-top: auto;
+    
+    background-color: #2b3137ab;
+    border-radius: 0px 0px 10px 10px;
+}
+

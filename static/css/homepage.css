@@ -19,22 +19,23 @@ div#about-left {
     width: 40%;
     align-content: center;
     justify-content: center;
-    border: red solid 2px;
+
 }
 
 div#about-image {
     width: 70%;
     align-content: center;
     justify-content: center;
-    border: purple solid 2px;
+
 }
 
 div#about-image img{
     width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 5/8;
     object-fit: cover;
+
     border: #222 solid 3px;
-    border-radius: 50%;
+    border-radius: 10dvw;
 }
 
 
@@ -50,27 +51,25 @@ div#about-right-inside {
 
 div#about-right-top {
     height: 30%;
-    border: lime solid 2px;
     align-content: center;
+
+    font-size: 4dvw;
 }
 
 div#about-right-middle {
     height: 40%;
-    border: olive solid 2px;
 }
 
 div#about-right-bottom {
     height: 30%;
-    border: lime solid 2px;
-
 }
 
 
 div#about-info {
-
+    font-size: 1.5dvw;
 }
 
 
 h1 {
-    font-size: 50px;
+    
 }
