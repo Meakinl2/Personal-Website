@@ -24,10 +24,8 @@ div#projects-introduction {
     margin-bottom: 4dvh;
 
     border-radius: 5px;
-    background: rgba(120,120,120,0.2);
-    
+    background: rgba(120,120,120,0.2);    
 }
-
 
 div#projects-introduction-title {
     margin-top: 6dvh;
@@ -46,10 +44,12 @@ div#projects-introduction-description {
 }
 
 div#projects-board {
-    width:90dvw;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width:92dvw;
+    max-width: 92dvw;
 
     border:black;
     margin-bottom: 4dvh;
@@ -59,9 +59,13 @@ div#projects-board {
 div.project-container {
     display: flex;
     flex-direction: column;
+    
+    width: 29dvw;
     aspect-ratio: 10/11;
+    
+    margin: 0.5dvw;
+    
     border-radius: 10px;
-
     background: rgba(80,80,80,0.3);
     box-shadow: 0 30px 40px rgba(0,0,0,0.6);
 }
@@ -100,31 +104,27 @@ div.project-image-cover {
 }
 
 div.project-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-div.project-description-blurb {
     margin: 1dvw;
-
     text-align: left;
     overflow-wrap: break-word;
     overflow: hidden;
 }
 
-div.project-description-skills {
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
 
-    width: 100%;
+div.project-skills {
+    display: inline-flex;
+    flex-wrap: wrap;
 
-    overflow-wrap: break-word;
+    width: 96%;
+    padding: 2%;
+
     overflow: hidden;
 }
 
-div.project-description-skill-tag {
+div.project-skill-tag {
+    padding: 0.4dvw;
     font-size: 1dvw;
+
 }
 
 a.project-github-link {
