@@ -3,69 +3,85 @@ div#centre-outside {
     justify-content: center;
     align-items: center;
     text-align: center;
+
     min-height: 95vh;
 }
 
 div#centre-inside {
-    display: flex;
-    width: 75dvw;
+    display: inline-flex;
+
+    width: 64dvw;
     min-height: 75dvh;
     height: 75dvh;
     
 }
 
-div.contact-input {
-    width: 75%;
-    background: white;
-    border: black solid 1px;
-    border-radius: 15%;
-
-}
-
-div.contact-input:focus {
-    border-color: blue;
-}
-
 div#info-box {
-    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
     align-content: center;
-    justify-content: center;
-    border: black solid 2px;
-    
+
+    width: 30dvw;
 }
 
-div#info-box-align {
-    width: 50%;
+div#info-box-contact-info {
+    width: 24dvw;
+    height: 20dvh;
+
+    margin: 3dvh 1dvh 3dvw 3dvw;
+    padding: 2dvw;
+
+    background: rgba(20,20,20,0.3);
+    border-radius: 3dvw;  
+
     text-align: left;
-    align-content: center;
-    justify-content: center;
-    border: black solid 2px;
+
+    overflow: hidden;
+}
+
+div#info-box-blank {
+    width: 24dvw;
+    height: 55dvh;
+
+    margin: 1dvh 3dvh 3dvw 3dvw;
+    padding: 2dvw;
+
+    background: rgba(20,20,20,0.3);
+    border-radius: 3dvw;  
 }
 
 div#input-box {
-    width: 50%;
     align-content: center;
     justify-content: center; 
-    background: rgba(30,30,30,0.3);
-    border-radius: 15dvh;   
+
+    width: 30dvw;
+
+    margin: 3dvh 3dvh 3dvw 3dvw;
+    padding: 2dvw;
+
+    background: rgba(20,20,20,0.3);
+    border-radius: 3dvw;   
 }
 
 input[type="text"] {
-    width: 90%;
-    color:black;
-
-    padding:3px;
+    width: 27dvw;
+    
+    padding: 0.5dvw;
     margin-bottom:20px;
+    
     border-radius: 5px;
 
+    color:black;
 }
 
 textarea#message-box {
-    height:200px;
-    width:90%;
-    color:black;
+    width: 27dvw;
+    height: 25dvh;
     
-    padding:3px;
+    
+    padding: 0.5dvw;
     border-radius: 5px;
+
+    color:black;
 }
 
