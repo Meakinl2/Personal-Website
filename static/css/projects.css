@@ -31,11 +31,10 @@ div#projects-introduction {
 
 div#projects-introduction-title {
     margin-top: 6dvh;
-    
+
     background: rgba(20,20,20,0.3);
     border-top: black solid 10px;
     border-bottom: black solid 10px;
-
     
     font-size: 12dvw;
     color: #bcbcbc;
@@ -82,13 +81,16 @@ div.project-image {
     width: 100%;
     aspect-ratio: 16/9;
     border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
 }
 
 div.project-image img {
     width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
+    filter: blur(0.1dvw);
     border-radius: 10px 10px 0px 0px;
+    
 }
 
 div.project-image-cover {
