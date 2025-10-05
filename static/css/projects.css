@@ -1,17 +1,21 @@
 div#center-outside {
     display: flex;
     justify-content: center;
-    text-align: center;
+    
     min-height: 95dvh;
+
+    text-align: center;
 }
 
 div#center-inside {
     display: flex;
     flex-direction: column;
     align-content: center;
-    text-align: center;
+    
 
     border: black solid 5px;
+
+    text-align: center;
 }
 
 div#projects-introduction {
@@ -40,6 +44,7 @@ div#projects-introduction-title {
 
 div#projects-introduction-description {
     margin-top: 6dvh;
+
     font-size: 2dvw;
 }
 
@@ -84,7 +89,9 @@ div.project-title {
 div.project-image {
     width: 100%;
     aspect-ratio: 16/9;
+
     border-radius: 10px 10px 0px 0px;
+
     overflow: hidden;
 }
 
@@ -92,7 +99,8 @@ div.project-image img {
     width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
-    filter: blur(0.1dvw);
+
+    filter: blur(0.1dvw) brightness(0.95);
     border-radius: 10px 10px 0px 0px;
     
 }
@@ -100,12 +108,17 @@ div.project-image img {
 div.project-image-cover {
     width: 100%;
     aspect-ratio: 2/1;
+
     background-color: rgba(80,80,80,0.3);
 }
 
 div.project-description {
     margin: 1dvw;
+    
+
     text-align: left;
+    font-size: 1.5dvw;
+
     overflow-wrap: break-word;
     overflow: hidden;
 }
@@ -122,10 +135,16 @@ div.project-skills {
 }
 
 div.project-skill-tag {
+    
+    margin: 0.2vw;
     padding: 0.4dvw;
-    font-size: 1dvw;
 
+    background-color: #65569963;
+    border-radius: 0.5dvw;
+
+    font-size: 1dvw;
 }
+
 
 a.project-github-link {
     width:100%;
