@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     color: white;
-    font-size: 20px;
+    font-size: 4dvh;
 }
 
 html, body {
@@ -19,6 +19,7 @@ body {
 }
 
 div.page {
+
     background: radial-gradient(at 18% 99%, rgb(18, 1, 65) 0px, transparent 50%) repeat scroll 0% 0%, 
             radial-gradient(at 97% 8%, rgb(4, 72, 145) 0px, transparent 50%) repeat scroll 0% 0%, 
             radial-gradient(at 79% 82%, rgb(24, 5, 66) 0px, transparent 50%) repeat scroll 0% 0%,
@@ -28,5 +29,8 @@ div.page {
             
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
+    
+    overflow-y: scroll;
     
 }

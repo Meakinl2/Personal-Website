@@ -2,7 +2,7 @@ div#center-outside {
     display: flex;
     justify-content: center;
     
-    min-height: 95dvh;
+    height: 95dvh;
 
     text-align: center;
 }
@@ -11,9 +11,6 @@ div#center-inside {
     display: flex;
     flex-direction: column;
     align-content: center;
-    
-
-    border: black solid 5px;
 
     text-align: center;
 }
@@ -24,10 +21,10 @@ div#projects-introduction {
     width: 90dvw;
     aspect-ratio: 8/3;
 
-    margin-top: 2dvh;
+    margin-top: 4dvh;
     margin-bottom: 4dvh;
 
-    border-radius: 5px;
+    border-radius: 1dvw;
     background: rgba(120,120,120,0.2);    
 }
 
@@ -35,17 +32,17 @@ div#projects-introduction-title {
     margin-top: 6dvh;
 
     background: rgba(20,20,20,0.3);
-    border-top: black solid 10px;
-    border-bottom: black solid 10px;
+    border-top: black solid 1.5dvh;
+    border-bottom: black solid 1.5dvh;
     
-    font-size: 12dvw;
+    font-size: 24dvh;
     color: #bcbcbc;
 }
 
 div#projects-introduction-description {
     margin-top: 6dvh;
 
-    font-size: 2dvw;
+    font-size: 4dvh;
 }
 
 div#projects-board {
@@ -70,9 +67,9 @@ div.project-container {
     
     margin: 0.5dvw;
     
-    border-radius: 10px;
+    border-radius: 2dvh;
     background: rgba(80,80,80,0.3);
-    box-shadow: 0 30px 40px rgba(0,0,0,0.6);
+    box-shadow: 0.5dvw 3dvh 4dvh rgba(0,0,0,0.6);
 }
 
 div.project-title {
@@ -83,14 +80,14 @@ div.project-title {
     border-top: black solid 0.5dvh;
     border-bottom: black solid 0.5dvh;
 
-    font-size: 1.75dvw;
+    font-size: 3.8dvh;
 }
 
 div.project-image {
     width: 100%;
     aspect-ratio: 16/9;
 
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 2dvh 2dvh 0px 0px;
 
     overflow: hidden;
 }
@@ -101,7 +98,7 @@ div.project-image img {
     object-fit: cover;
 
     filter: blur(0.075dvw) brightness(0.95);
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 2dvh 2dvh 0px 0px;
     
 }
 
@@ -116,7 +113,7 @@ div.project-description {
     margin: 1dvw;
 
     text-align: left;
-    font-size: 1.2dvw;
+    font-size: 2.4dvh;
 
     overflow-wrap: break-word;
     overflow: hidden;
@@ -140,7 +137,7 @@ div.project-skill-tag {
     background-color: #65569963;
     border-radius: 0.5dvw;
 
-    font-size: 1dvw;
+    font-size: 2dvh;
 }
 
 div.project-footer {
@@ -154,12 +151,14 @@ div.project-footer {
 div.project-completion-date {
     height: 3dvh;
 
-    font-size: 1.5dvw;
+    font-size: 2.8dvh;
     
 }
 
 div.project-github-link {
+    display: flex;
     align-content: center;
+    justify-content: center;
 
     width: 29dvw;
     height: 4dvh;
@@ -167,9 +166,10 @@ div.project-github-link {
     margin-top: 1dvh;
     
     background-color: #2b3137ab;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 2dvh 2dvh;
 }
 
 div.project-github-link a {
+    font-size: 2.8dvh;
     text-decoration: none;
 }

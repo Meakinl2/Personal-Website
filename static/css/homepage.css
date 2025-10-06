@@ -65,7 +65,7 @@ div#about-title {
 
     height: 15dvh;
 
-    font-size: 4dvw;
+    font-size: 8dvh;
 }
 
 
@@ -75,7 +75,7 @@ div#about-info {
     padding: 1dvw;
 
     text-align: left;
-    font-size: 1.2dvw;
+    font-size: 2.4dvh;
 }
 
 div#about-links-bar {
@@ -84,5 +84,4 @@ div#about-links-bar {
 
     width: 48dvw;
     height: 20dvh;
-
 }
