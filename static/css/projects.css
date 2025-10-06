@@ -145,7 +145,7 @@ div.project-skill-tag {
 
 div.project-footer {
     width: 29dvw;
-    height: 7dvh;
+    height: 8dvh;
 
     margin-top: auto;
     align-self: flex-end;
@@ -153,7 +153,7 @@ div.project-footer {
 
 div.project-completion-date {
     height: 3dvh;
-    
+
     font-size: 1.5dvw;
     
 }
@@ -163,6 +163,8 @@ div.project-github-link {
 
     width: 29dvw;
     height: 4dvh;
+
+    margin-top: 1dvh;
     
     background-color: #2b3137ab;
     border-radius: 0px 0px 10px 10px;
