@@ -100,7 +100,7 @@ div.project-image img {
     aspect-ratio: 16/9;
     object-fit: cover;
 
-    filter: blur(0.15dvw) brightness(0.95);
+    filter: blur(0.075dvw) brightness(0.95);
     border-radius: 10px 10px 0px 0px;
     
 }
