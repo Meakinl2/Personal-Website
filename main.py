@@ -10,6 +10,10 @@ def Main():
 def Experience():
     return render_template("experience.html")
 
+@app.route("/certifications")
+def Certifications():
+    return render_template("certifications.html")
+
 @app.route("/projects")
 def Projects():
     return render_template("projects.html")
