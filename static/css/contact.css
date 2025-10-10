@@ -24,7 +24,9 @@ div#info-box {
     width: 30dvw;
 }
 
-div#info-box-contact-info {
+div#contact-info {
+    display: flex;
+    flex-direction: column;
     width: 24dvw;
     height: 20dvh;
 
@@ -34,9 +36,32 @@ div#info-box-contact-info {
     background: rgba(20,20,20,0.3);
     border-radius: 3dvw;  
 
-    text-align: left;
+    
 
     overflow: hidden;
+}
+
+div#contact-info-title {
+    width: 24dvw;
+    height: 6dvh;
+
+    margin-bottom: 2dvh;
+
+    font-size: 2.8dvh;
+}
+
+div#contact-info-email {
+    width: 24dvw;
+    height: 6dvh;
+
+    font-size: 2.3dvh;
+}
+
+div#contact-info-phone {
+    width: 24dvw;
+    height: 6dvh;
+
+    font-size: 2.3dvh;
 }
 
 div#info-box-blank {
@@ -63,14 +88,23 @@ div#input-box {
     border-radius: 3dvw;   
 }
 
+label {
+    width: 27dvw;
+    height: 2dvh;
+    
+
+    font-size: 2dvh;
+    text-align: left;
+}
+
 input[type="text"] {
     width: 27dvw;
     
     padding: 0.5dvw;
-    margin-bottom:20px;
     
-    border-radius: 5px;
+    border-radius: 1dvw;
 
+    font-size: 2.5dvh;
     color:black;
 }
 
@@ -78,10 +112,11 @@ textarea#message-box {
     width: 27dvw;
     height: 25dvh;
     
-    
     padding: 0.5dvw;
-    border-radius: 5px;
+    
+    border-radius: 1dvw;
 
+    font-size: 2.5dvh;
     color:black;
 }
 
