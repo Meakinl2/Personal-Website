@@ -1,8 +1,12 @@
 /* Top of Page Navbar */
 div#navbar {
     height:5dvh;
+    
+    background: rgba(0,0,0,0);
+
     text-align:center;
-    background: rgba(0,0,0,0);;
+
+    overflow: hidden;
 }
 
 ul {
