@@ -1,8 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+
     color: white;
     font-size: 4dvh;
+    font-family: Tahoma, sans-serif;
 }
 
 html, body {

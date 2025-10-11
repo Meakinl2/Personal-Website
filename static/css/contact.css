@@ -36,8 +36,6 @@ div#contact-info {
     background: rgba(20,20,20,0.3);
     border-radius: 3dvw;  
 
-    
-
     overflow: hidden;
 }
 
@@ -81,7 +79,7 @@ div#input-box {
 
     width: 30dvw;
 
-    margin: 3dvh 3dvh 3dvw 3dvw;
+    margin: 3dvh 3dvw 3dvh 3dvw;
     padding: 2dvw;
 
     background: rgba(20,20,20,0.3);
@@ -89,9 +87,9 @@ div#input-box {
 }
 
 label {
-    width: 27dvw;
-    height: 2dvh;
+    float: left;
     
+    margin: 1dvh 0dvh 0.3dvh 1dvw;
 
     font-size: 2dvh;
     text-align: left;
@@ -108,9 +106,22 @@ input[type="text"] {
     color:black;
 }
 
+input[type="submit"] {
+    float: right;
+
+    width: 8dvw;
+    height: 4dvh;
+
+    font-size: 3dvh;
+
+}
+
 textarea#message-box {
     width: 27dvw;
     height: 25dvh;
+    
+    max-width: 27dvw;
+    max-height: 25dvh;
     
     padding: 0.5dvw;
     
